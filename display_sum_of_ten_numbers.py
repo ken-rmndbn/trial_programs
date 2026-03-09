@@ -1,3 +1,4 @@
-for i in range(11):
-    numbers = float("Enter numbers: ")
-    
+numbers = [float(input(f"Enter number {i}: ")) for i in range (1, 11)]
+total = sum(numbers)
+print("Sum = ", total)
+
