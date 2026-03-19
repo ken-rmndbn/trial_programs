@@ -7,3 +7,8 @@ while True:
     except ValueError:
         print("Invalid Input")
         break
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print("The average of all numbers: ", average)
+else:
+    print("Invalid input")
