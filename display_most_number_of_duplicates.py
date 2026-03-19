@@ -1,4 +1,3 @@
-from collections import Counter
 numbers = []
 while True:
     user_input = input("Enter Number: ")
