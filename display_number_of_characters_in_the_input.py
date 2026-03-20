@@ -1,3 +1,3 @@
 full_name = input("Enter fullname: ")
 character_counter = len(full_name)
-print("Num")
+print("Number of characters: ", character_counter)
